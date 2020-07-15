@@ -10,7 +10,7 @@ table{
     font-size: larger;
 }
 tr {
-    background-color: lightgreen;
+    background-color: lightgrey;
 }
 
 td{
@@ -29,7 +29,16 @@ td{
 img {
     border-radius: 50%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 50px auto;
 }
 
+h3 {
+    text-align: center;
+    color: floralwhite;
+    background-color: darkcyan;
+}
+
+.list {
+    color: seashell;
+    font-family: "American Typewriter";
+}
