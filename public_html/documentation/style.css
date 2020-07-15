@@ -4,9 +4,8 @@ body {
 }
 
 table{
-    border: 2px;
     font-weight: bold;
-    margin: auto;
+    margin-block: auto;
     font-size: larger;
 }
 tr {
@@ -24,18 +23,13 @@ td{
     font-family: sans-serif;
     color: floralwhite;
     text-align: center;
+    background-color: darkcyan;
 }
 
 img {
     border-radius: 50%;
     display: block;
     margin: 50px auto;
-}
-
-h3 {
-    text-align: center;
-    color: floralwhite;
-    background-color: darkcyan;
 }
 
 .list {
