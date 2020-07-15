@@ -1,0 +1,35 @@
+
+body {
+    background-color: slategrey;
+}
+
+table{
+    border: 2px;
+    font-weight: bold;
+    margin: auto;
+    font-size: larger;
+}
+tr {
+    background-color: lightgreen;
+}
+
+td{
+    color: darkcyan;
+    font-style: italic;
+}
+
+.header {
+    font-style: italic;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: floralwhite;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
