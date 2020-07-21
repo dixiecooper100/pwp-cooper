@@ -36,3 +36,9 @@ img {
     color: seashell;
     font-family: "American Typewriter";
 }
+
+.purpose {
+    color: seashell;
+    font-family: "Courier New";
+    background-color: darkcyan;
+}
