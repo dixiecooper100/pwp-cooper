@@ -37,6 +37,12 @@ img {
     font-family: "American Typewriter";
 }
 
+.list-2 {
+    color: seashell;
+    font-family: "American Typewriter";
+    text-align: center;
+}
+
 .purpose {
     color: seashell;
     font-family: "Courier New";
