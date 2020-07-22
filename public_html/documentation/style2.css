@@ -1,20 +1,24 @@
-.header2 {
-    font-style: italic;
-    font-size: xx-large;
-    font-family: sans-serif;
+
+
+.desktop {
+    ;
+}
+
+.mobile{
+
+}
+
+.header2{
     color: floralwhite;
     background-color: darkcyan;
 }
 
-.desktop {
-    float: left;
-}
-
-.mobile{
-    float: right;
-}
-
-
 body {
     background-color: slategrey;
+}
+
+.list
+{
+    background-color: darkcyan;
+    color: floralwhite;
 }
