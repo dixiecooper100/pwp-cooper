@@ -1,0 +1,20 @@
+.header2 {
+    font-style: italic;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: floralwhite;
+    background-color: darkcyan;
+}
+
+.desktop {
+    float: left;
+}
+
+.mobile{
+    float: right;
+}
+
+
+body {
+    background-color: slategrey;
+}
