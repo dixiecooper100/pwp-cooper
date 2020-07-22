@@ -1,20 +1,27 @@
 .mockups{
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .desktop {
     object-position: left;
+    text-align: center;
 }
 
 .mobile{
     object-position: right;
+    text-align: center;
 }
 
 .header2{
     color: floralwhite;
     background-color: darkcyan;
+}
+
+h3 {
+    color: floralwhite;
+    background-color:darkgray;
 }
 
 body {
