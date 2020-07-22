@@ -1,11 +1,15 @@
-
+.mockups{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
 
 .desktop {
-    ;
+    object-position: left;
 }
 
 .mobile{
-
+    object-position: right;
 }
 
 .header2{
