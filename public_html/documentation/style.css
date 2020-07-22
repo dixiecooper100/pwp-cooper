@@ -26,7 +26,7 @@ td{
     background-color: darkcyan;
 }
 
-img {
+.picture {
     border-radius: 50%;
     display: block;
     margin: 50px auto;
