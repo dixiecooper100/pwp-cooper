@@ -8,8 +8,11 @@
 }
 
 .contact-form {
+    height: 40em;
+    width: 30em;
     background-color: darkgray;
     float: right;
+    border-width: 2em;
     border-style: solid;
     border-color: black;
     margin-left: 15em;
@@ -21,4 +24,17 @@
     padding: 15em;
     margin-top: 10em;
     margin-bottom: 10em;
+    border-width: 4em;
+    border-color: darkslategray;
 }
+
+.challenge-links {
+    background-color: lemonchiffon;
+    padding: 3em;
+    width: 30em;
+    height: 30em;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.container-footer {}
