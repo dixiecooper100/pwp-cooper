@@ -1,5 +1,8 @@
 .jumbotron {
+    font-family: Lucida Console, Courier, monospace;
     padding: 3em;
     background-color: black;
     margin: 2em;
+    border-style: solid;
+    border-color: black;
 }
