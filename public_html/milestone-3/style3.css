@@ -6,3 +6,19 @@
     border-style: solid;
     border-color: black;
 }
+
+.contact-form {
+    background-color: darkgray;
+    float: right;
+    border-style: solid;
+    border-color: black;
+    margin-left: 15em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.photo-gallery {
+    padding: 15em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
