@@ -15,6 +15,7 @@
     height: 40em;
     width: 30em;
     margin: auto;
+    font-family: "Times New Roman";
 }
 
 .photo-gallery {
@@ -23,15 +24,15 @@
     width: auto;
     border-color: black;
     border-width: 10px;
-    margin-bottom: 20px;
 }
 
 .carousel-inner {
     margin: auto;
+    padding: 20px;
 }
 
 .photos{
-    margin: auto
+    margin: 0 auto;
 }
 
 .btn-primary{
@@ -44,6 +45,22 @@
     width: 30em;
     height: 30em;
     margin: auto;
+    text-align: center;
+}
+
+.align-items-center{
+    align-content: center;
+    padding: 50px;
+}
+
+.list-links {
+    font-size: larger;
+    text-align: left;
+}
+
+.student-question{
+    font-weight: bold;
+    padding: 3px;
 }
 
 .footer{
