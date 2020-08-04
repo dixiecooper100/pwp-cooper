@@ -1,26 +1,33 @@
 .jumbotron {
     font-family: Lucida Console, Courier, monospace;
-    padding: 3em;
     background-color: black;
+    padding: 3em;
     margin: 2em;
     border-style: solid;
     border-color: black;
 }
 
+.picture{
+    background-color: mediumturquoise;
+}
+
 .contact-form {
-    height: 40em;
-    width: 30em;
     background-color: darkgray;
     border-width: 2em;
     border-style: solid;
     border-color: black;
     margin: auto;
+    height: 40em;
+    width: 30em;
+    margin-top: 50px
 }
 
 .photo-gallery {
+    background-color: lightgray;
     padding: 15em;
     border-width: 4em;
     border-color: darkslategray;
+    color: darkslategray;
 }
 
 .challenge-links {
@@ -31,7 +38,8 @@
     margin: auto;
 }
 
-.container-footer {
+.footer{
     margin-top: 5em;
-    padding: 2em;
+    background-color: lightgray;
+    color: black;
 }
