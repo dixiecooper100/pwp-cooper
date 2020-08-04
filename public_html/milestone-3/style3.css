@@ -7,27 +7,35 @@
     border-color: black;
 }
 
-.picture{
-    background-color: mediumturquoise;
-}
-
 .contact-form {
     background-color: darkgray;
     border-width: 2em;
     border-style: solid;
     border-color: black;
-    margin: auto;
     height: 40em;
     width: 30em;
-    margin-top: 50px
+    margin: auto;
 }
 
 .photo-gallery {
     background-color: lightgray;
-    padding: 15em;
-    border-width: 4em;
-    border-color: darkslategray;
-    color: darkslategray;
+    padding: 60px;
+    width: auto;
+    border-color: black;
+    border-width: 10px;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    margin: auto;
+}
+
+.photos{
+    margin: auto
+}
+
+.btn-primary{
+    margin-top: 20px;
 }
 
 .challenge-links {
@@ -39,7 +47,8 @@
 }
 
 .footer{
-    margin-top: 5em;
-    background-color: lightgray;
-    color: black;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
 }
