@@ -4,26 +4,26 @@
     padding: 3em;
     margin: 2em;
     border-style: solid;
-    border-color: black;
+    border-color: #CD8C4E;
 }
 
 .contact-form {
     background-color: darkgray;
-    border-width: 2em;
+    border-width: 3em;
     border-style: solid;
     border-color: black;
+    margin-bottom: 10em;
+    margin-left: auto;
+    margin-right: auto;
     height: 40em;
     width: 30em;
-    margin: auto;
     font-family: "Times New Roman";
 }
 
 .photo-gallery {
-    background-color: lightgray;
+    background-color: #F6E2B0;
     padding: 60px;
     width: auto;
-    border-color: black;
-    border-width: 10px;
 }
 
 .carousel-inner {
@@ -40,7 +40,7 @@
 }
 
 .challenge-links {
-    background-color: lemonchiffon;
+    background-color: #79C29D;
     padding: 3em;
     width: 30em;
     height: 30em;
@@ -64,7 +64,7 @@
 }
 
 .footer{
-    background-color: lightgrey;
+    background-color: #5D735A;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
