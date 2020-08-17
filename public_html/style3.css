@@ -51,6 +51,7 @@ body {
     padding: 0px;
     width: auto;
     margin-bottom: 5em;
+    font-family: 'Aldrich';
 }
 
 .carousel-inner {
@@ -70,11 +71,10 @@ body {
     background-color: #F8A455;
     font-family: 'Aldrich';
     padding: 3em;
-    width: 40em;
-    height: 40em;
-    margin: auto;
+    width: 45em;
+    height: 45em;
     text-align: center;
-    margin-top: 5em;
+    margin: auto;
 }
 
 .align-items-center{
