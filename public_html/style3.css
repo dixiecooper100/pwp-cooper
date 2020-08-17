@@ -1,29 +1,37 @@
+.navbar {
+    background-color: #07344C;
+}
+
+body {
+    background-color: #FBE4B7;
+}
+
+
 .jumbotron {
-    font-family: Lucida Console, Courier, monospace;
-    background-color: black;
-    padding: 3em;
-    margin: 2em;
+    font-family: "Comic Sans MS";
+    background-color: #0797A0 !important;
+    margin: auto;
     border-style: solid;
-    border-color: #CD8C4E;
+    border-color: #F8A455;
 }
 
 .contact-form {
-    background-color: darkgray;
-    border-width: 3em;
+    background-color: #0797A0;
+    border-width: 1em;
+    border-radius: 10%;
     border-style: solid;
     border-color: black;
-    margin-bottom: 10em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 40em;
     width: 30em;
     font-family: "Times New Roman";
 }
 
 .photo-gallery {
-    background-color: #F6E2B0;
-    padding: 60px;
+    background-color: #07344C;
+    padding: 100px;
     width: auto;
+    margin-bottom: 5em;
 }
 
 .carousel-inner {
@@ -40,12 +48,13 @@
 }
 
 .challenge-links {
-    background-color: #79C29D;
+    background-color: #F8A455;
     padding: 3em;
-    width: 30em;
-    height: 30em;
+    width: 40em;
+    height: 40em;
     margin: auto;
     text-align: center;
+    margin-top: 5em;
 }
 
 .align-items-center{
@@ -53,8 +62,9 @@
     padding: 50px;
 }
 
-.list-links {
-    font-size: larger;
+li {
+    font-size: large;
+    color: darkslategray !important;
     text-align: left;
 }
 
@@ -64,7 +74,7 @@
 }
 
 .footer{
-    background-color: #5D735A;
+    background-color: #07344C;
     text-align: center;
     padding: 20px;
     margin-top: 50px;

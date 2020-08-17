@@ -19,7 +19,7 @@
 <body>
 
 <!-- Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,18 +37,30 @@
 
 
 <!-- Jumbotron White Board -->
-<div class="jumbotron row bg-light text-center rounded" id="white-board">
+<div class="container-full-bg">
+    <div class="jumbotron row bg-light text-center rounded" id="white-board">
+        <div class="row">
+            <div class="col-12 col-md-4" id="picture">
+                <img class="rounded-circle img-fluid" src="me.jpg" alt="picOfMe" width="300" height="300"/>
+            </div>
 
-    <div id="picture">
-        <img class="rounded-circle img-fluid" src="me.jpg" alt ="picOfMe" width="300" height ="300"/>
+            <div class="col-12 col-md-8">
+                <h1>Welcome to Ms Dixie's/Ms Cooper's Corner</h1>
+                <p>Objectives:
+                <ul>
+                    <li>Read about technology and coding</li>
+                    <li>Try HTML/CSS/Javascript
+                        challenges
+                    </li>
+                    <li>Connect with Ms. Cooper!</li>
+                </ul>
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
-
-    <div>
-        <h1>Welcome to Ms Dixie's/Ms Cooper's Corner</h1>
-        <p class="lead">On this website you can read about technology and coding, try HTML/CSS/Javascript challenges,
-            check out some past student work, or connect with Ms. Cooper! </p>
-    </div>
-
 </div>
 
 <!-- Photo Gallery -->
@@ -60,19 +72,40 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="image-fluid" src="VandHJPG.JPG"
+                        <img class="img-fluid" src="VandHJPG.JPG"
                              alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Horizons Summer Program 2019</h5>
+                            <p>Coding co-curricular students presenting their personal website projects made with HTML/CSS</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="image-responsive" src="groupandme.JPG"
-                             alt="Second slide" width ="" height="853">
+                        <img class="img-fluid" src="groupandme.JPG"
+                             alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>George I. Sanchez 2019-2020 school year</h5>
+                            <p>8th grade News Team students</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-flex" src="ui-image-placeholder-wireframes-apps-260nw-1037719204.webp"
-                             alt="Third slide" width="">
+                        <img class="img-fluid" src="OandM.jpg"
+                             alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>George I. Sanchez Collaborative Community School</h5>
+                            <p>8th grade Web Development Class working on a code.org project</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="fieldtripcopy%20copy.jpg"
+                             alt="Fourth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tech on Central Field Trip 2019</h5>
+                            <p>Students from GISCCS on a field trip to the Fat Pipe, Innovate ABQ, and the FUSE Makers Space</p>
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -89,11 +122,11 @@
 </section>
 
 <!-- Form to contact Ms. Cooper and coding challenges -->
-<div class="align-items-center container-fluid" id="contact-form">
+<div class="container-fluid" id="contact">
 
     <div class="row">
-        <section class="contact-form rounded" id="contact-form-boxes">
-            <form action="./apis/" id="contact" method="post" novalidate class="col">
+        <section class="contact-form" id="contact-form-boxes">
+            <form action="./apis/" id="contact-form" method="post" novalidate class="col">
 
                 <div class="form-name">
                     <label for="name-answer"> Name:</label>
@@ -138,28 +171,32 @@
                 <ul class="list-links">
 
                     <li>
-                        <a href="https://studio.code.org/projects/spritelab/SB-otqm0e2wnfy5gPAF2nMhwFEQfLZDJYzNok5ngvkE/edit">
+                        <a class="links"
+                           href="https://studio.code.org/projects/spritelab/SB-otqm0e2wnfy5gPAF2nMhwFEQfLZDJYzNok5ngvkE/edit">
                             Sprite Challenge
                             <i class="fas fa-ice-cream"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://studio.code.org/projects/artist/SB-otqm0e2wnfy5gPAF2nCFWlXdEWmjJeDcXtYdjO9E/edit">
+                        <a class="links"
+                           href="https://studio.code.org/projects/artist/SB-otqm0e2wnfy5gPAF2nCFWlXdEWmjJeDcXtYdjO9E/edit">
                             Artist Lab
                             <i class="fas fa-paint-brush"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://studio.code.org/projects/applab/ZkVrdQ60KakdqhT3rDA2P8C77Kc6IHEHTFrzcYidlY0/edit">
+                        <a class="links"
+                           href="https://studio.code.org/projects/applab/ZkVrdQ60KakdqhT3rDA2P8C77Kc6IHEHTFrzcYidlY0/edit">
                             App Lab
                             <i class="fas fa-mobile-alt"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://studio.code.org/projects/gamelab/ZkVrdQ60KakdqhT3rDA2P3VXHtkhY-GYIe7p8_KrvBw/edit">
+                        <a class="links"
+                           href="https://studio.code.org/projects/gamelab/ZkVrdQ60KakdqhT3rDA2P3VXHtkhY-GYIe7p8_KrvBw/edit">
                             Game Lab
                             <i class="fas fa-gamepad"></i>
                         </a>

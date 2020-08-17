@@ -15,7 +15,6 @@ RUN npm i npm@latest -g
 
 RUN mkdir /home/node/app
 
-
 WORKDIR ./home/node/app
 
 RUN chown node:node ./
