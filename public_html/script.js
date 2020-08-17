@@ -1,8 +1,8 @@
 window.onload = () => {
-  let d = new Date()
-  d = d.toDateString();
+  let date = new Date()
+  date = date.toDateString();
   let whiteboard = document.getElementById("date")
-  whiteboard.innerHTML = d;
+  whiteboard.innerHTML = date;
 }
 
 

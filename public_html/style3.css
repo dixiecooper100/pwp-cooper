@@ -3,6 +3,14 @@
     font-family: 'Aldrich';
 }
 
+.navbar-nav{
+    color: #FBE4B7;
+}
+
+a {
+    color: #FBE4B7;
+}
+
 body {
     background-color: #FBE4B7;
 }
@@ -22,11 +30,10 @@ body {
     color: #F8A455 !important;
 }
 
-
 .jumbotron {
     background-color: #0797A0 !important;
     font-family: 'Annie Use Your Telescope';
-    font-size: xx-large;
+    font-size: 45px;
     font-weight: bold;
     color: #F8A455;
     margin: auto;
@@ -36,6 +43,7 @@ body {
 
 .contact-form {
     background-color: #0797A0;
+    color: #07344C;
     border-width: 1em;
     border-radius: 10%;
     border-style: solid;
@@ -44,6 +52,11 @@ body {
     height: 40em;
     width: 30em;
     font-family: 'Aldrich';
+}
+
+.contact-heading{
+    text-align: center;
+    padding-top: 1em;
 }
 
 .photo-gallery {
@@ -59,12 +72,20 @@ body {
     padding: 20px;
 }
 
+.carousel-caption{
+    color: #FBE4B7;
+}
+
 .photos{
     margin: 0 auto;
 }
 
 .btn-primary{
     margin-top: 20px;
+}
+
+.challenge-header{
+    color: #07344C;
 }
 
 .challenge-links {
@@ -75,16 +96,23 @@ body {
     height: auto;
     text-align: center;
     margin: auto;
-    box-shadow: 0.8em -0.8em 1em black,
-    0.3em 0.3em 2em black;
 }
 
 .challenge-links:hover {
-    box-shadow: 0.5em -0.5em 1em black,
-    0.3em 0.3em 2em black;
+    box-shadow: 0.3em 0.3em 2em #964000,
+    0.3em 0.3em 2em #964000,
+    0.3em 0.3em 2em #964000,
+    0.3em 0.3em 2em #964000;
     -webkit-transform: scale(1.02);
     -moz-transform: scale(1.02);
     -o-transform: scale(1.02);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+
+.past-work{
+    color: #07344C;
 }
 
 .align-items-center{
@@ -99,7 +127,7 @@ li {
 }
 
 .student-question{
-    color: #FBE4B7;
+    color: #964000;
     font-weight: bold;
     padding: 3px;
 }
@@ -110,3 +138,9 @@ li {
     padding: 20px;
     margin-top: 50px;
 }
+
+.fa-github-square {
+    color: white;
+}
+
+
