@@ -14,6 +14,8 @@
 
     <!--Font Kit -->
     <script src="https://kit.fontawesome.com/dddbff6567.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
 </head>
 
 <body>
@@ -45,16 +47,16 @@
             </div>
 
             <div class="col-12 col-md-8">
-                <h1>Welcome to Ms Dixie's/Ms Cooper's Corner</h1>
-                <p>Objectives:
-                <ul>
-                    <li>Read about technology and coding</li>
+                <p class ="date"> Date: <span id="date" onload="setDate()"></span></p>
+                <h1>Welcome to Ms Cooper's Corner</h1>
+                <div class="objectives">Objectives:
+                <ul class="objectives-list">
+                    <li>Read information about technology and coding</li>
                     <li>Try HTML/CSS/Javascript
-                        challenges
-                    </li>
-                    <li>Connect with Ms. Cooper!</li>
+                        challenges posted by Ms. Cooper</li>
+                    <li>Connect with me! Fill out the contact form and tell me about what you have been up to, and I will email you back!</li>
                 </ul>
-                </p>
+                </div>
 
             </div>
 
@@ -65,8 +67,6 @@
 
 <!-- Photo Gallery -->
 <section class="photo-gallery" id="photo-gallery">
-    <div class="row">
-        <div class="col">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -75,34 +75,34 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active text-center">
                         <img class="img-fluid" src="VandHJPG.JPG"
                              alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5>Horizons Summer Program 2019</h5>
                             <p>Coding co-curricular students presenting their personal website projects made with HTML/CSS</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item text-center">
                         <img class="img-fluid" src="groupandme.JPG"
                              alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5>George I. Sanchez 2019-2020 school year</h5>
                             <p>8th grade News Team students</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item text-center">
                         <img class="img-fluid" src="OandM.jpg"
                              alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5>George I. Sanchez Collaborative Community School</h5>
                             <p>8th grade Web Development Class working on a code.org project</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item text-center">
                         <img class="img-fluid" src="fieldtripcopy%20copy.jpg"
                              alt="Fourth slide">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5>Tech on Central Field Trip 2019</h5>
                             <p>Students from GISCCS on a field trip to the Fat Pipe, Innovate ABQ, and the FUSE Makers Space</p>
                         </div>
@@ -117,8 +117,6 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        </div>
-    </div>
 </section>
 
 <!-- Form to contact Ms. Cooper and coding challenges -->
@@ -142,7 +140,7 @@
                     <label for="email-input">Email address:</label>
                     <input name="email" class="form-control" id="email-input" aria-describedby="emailHelp"
                            placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted"> So I can contact you if you would like!</small>
+                    <small id="emailHelp" class="form-text"> So I can contact you if you would like!</small>
                 </div>
 
                 <div class="form-message">

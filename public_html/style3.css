@@ -1,15 +1,34 @@
 .navbar {
     background-color: #07344C;
+    font-family: 'Aldrich';
 }
 
 body {
     background-color: #FBE4B7;
 }
 
+.date{
+    color: #FBE4B7;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.objectives{
+    text-align: left;
+
+}
+
+.objectives-list{
+    color: #F8A455 !important;
+}
+
 
 .jumbotron {
-    font-family: "Comic Sans MS";
     background-color: #0797A0 !important;
+    font-family: 'Annie Use Your Telescope';
+    font-size: xx-large;
+    font-weight: bold;
+    color: #F8A455;
     margin: auto;
     border-style: solid;
     border-color: #F8A455;
@@ -24,12 +43,12 @@ body {
     margin: auto;
     height: 40em;
     width: 30em;
-    font-family: "Times New Roman";
+    font-family: 'Aldrich';
 }
 
 .photo-gallery {
     background-color: #07344C;
-    padding: 100px;
+    padding: 0px;
     width: auto;
     margin-bottom: 5em;
 }
@@ -49,6 +68,7 @@ body {
 
 .challenge-links {
     background-color: #F8A455;
+    font-family: 'Aldrich';
     padding: 3em;
     width: 40em;
     height: 40em;
