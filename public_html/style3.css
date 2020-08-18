@@ -7,6 +7,15 @@
     color: #FBE4B7;
 }
 
+.navbar-toggler{
+    color: white !important;
+}
+
+.container-top{
+    background-color: #07344C;
+    padding: 20px;
+}
+
 a {
     color: #FBE4B7;
 }
@@ -18,45 +27,27 @@ body {
 .date{
     color: #FBE4B7;
     text-align: left;
-    font-size: xx-large;
+    font-size: larger;
 }
 
-.objectives{
-    text-align: left;
-
+h1{
+    font-size: 60px;
 }
 
-.objectives-list{
+.col-12{
     color: #F8A455 !important;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .jumbotron {
     background-color: #0797A0 !important;
     font-family: 'Annie Use Your Telescope';
-    font-size: 45px;
-    font-weight: bold;
     color: #F8A455;
     margin: auto;
     border-style: solid;
     border-color: #F8A455;
-}
-
-.contact-form {
-    background-color: #0797A0;
-    color: #07344C;
-    border-width: 1em;
-    border-radius: 10%;
-    border-style: solid;
-    border-color: black;
-    margin: auto;
-    height: 40em;
-    width: 30em;
-    font-family: 'Aldrich';
-}
-
-.contact-heading{
-    text-align: center;
-    padding-top: 1em;
 }
 
 .photo-gallery {
@@ -78,6 +69,24 @@ body {
 
 .photos{
     margin: 0 auto;
+}
+
+.contact-form {
+    background-color: #0797A0;
+    color: #07344C;
+    border-width: 1em;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    height: 40em;
+    width: 30em;
+    font-family: 'Aldrich';
+}
+
+.contact-heading{
+    text-align: center;
+    padding-top: 1em;
 }
 
 .btn-primary{
@@ -132,11 +141,19 @@ li {
     padding: 3px;
 }
 
+.row-quote{
+    font-size: small;
+    color: #07344C;
+    font-family: 'Aldrich';
+    margin-top: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
 .footer{
     background-color: #07344C;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
 }
 
 .fa-github-square {
